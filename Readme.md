@@ -25,7 +25,7 @@ The modifications include use with the topics sidebar menu
 
 The navigation is setup to use starlight-sidebar-topics
 Also there is a custom function within ./src/sidebar_grps.mjs to auto generate group entries into a sidebar
-see astro.config.mjs for usage
+see astro.config.ts for usage
 this should help automate the generation of navigation groups for a given top level topic
 
 ## Content
