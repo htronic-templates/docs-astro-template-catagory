@@ -3,7 +3,7 @@
 This is a documentation template using astro and some plugins / starlight themes
 visible at:
 
-  * https://htronic-templates.github.io/docs-astro-template/
+  * https://htronic-templates.github.io/docs-astro-template-catagory/
 
 ## Theme
 

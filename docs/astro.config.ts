@@ -8,8 +8,8 @@ import { generateSidebarGroups } from './src/sidebar_grps.mjs';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://htronic-templates.github.io/docs-astro-template/',
-  base: '/docs-astro-template',
+  site: 'https://htronic-templates.github.io/docs-astro-template-catagory/',
+  base: '/docs-astro-template-catagory',
   integrations: [
     starlight({
       title: 'Template Docs Page',
@@ -18,12 +18,12 @@ export default defineConfig({
         light: './src/assets/logo-light.svg',
         alt: 'Template Docs Page',
       },
-      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/htronic-templates/docs-astro-template' }],
+      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/htronic-templates/docs-astro-template-catagory' }],
       customCss: [
         './src/styles/themes/theme-deep-purple.css',
       ],
       editLink: {
-        baseUrl: 'https://github.com/htronic-templates/docs-astro-template/edit/master/docs/',
+        baseUrl: 'https://github.com/htronic-templates/docs-astro-template-catagory/edit/master/docs/',
       },
       plugins: [
         starlightThemeBlack({
